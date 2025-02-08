@@ -17,3 +17,14 @@ Sollte der Wähler mit einer Kopie des Wahlscheines erneut das Wahllokal betrete
 
 # Datenschutzfreundlich
 Die App wahlhelfer.app erfasst keinerlei personenbezogenen Daten. Für die Erstellung einer Wahlsession wird nur ein Passwort (mindestens 10 Stellen) und die Anzahl der Wahlberechtigten gesamt bzw. pro Seite benötigt.
+
+# Self Hosting
+Du kannst Frontend und Backend ganz einfach selbst hosten.
+Im Frontend musst du lediglich an einigen Stellen im Code die URL zum Backend anpassen.
+Suche über das ganze Projekt nach "https://api.wahlhelfer.app/" und ersetze dies mit deiner URL.
+
+Anschließend bauen:
+
+```
+flutter build web --release
+```
