@@ -1,16 +1,19 @@
-# wahlhelfer_app
+# wahlhelfer.app Frontend
 
-A new Flutter project.
+Dies ist das Frontend zu [wahlhelfer.app], das Repo zum Backend findest du unter (https://github.com/gruessung/wahlhelfer_backend)[gruessung/wahlhelfer_backend].
 
-## Getting Started
+# Worum geht es?
+wahlhelfer.app ist eine Plattform, um Wahlhelfenden in den Wahllokalen den Abgleich zwischen Wählerverzeichnissen zu erleichtern.
+Vorteile:
+* kein manueller Abgleich notwendig
+* kein manuelles Zählen 
+* keine doppelte Wahl möglich mit Kopie des Wahlscheines
+* Live Ansicht für Wahlleiter
 
-This project is a starting point for a Flutter application.
+Beim CheckIn (Ausgabe der Wahlunterlagen) im Wahllokal wird die Nummer des Wählenden aus dem Wählerverzeichnis erfasst. Diese erscheint in der Liste "offene Nummern" für den CheckOut (Abgabe der Wahlunterlagen).
+Beim CheckOut wird die Nummer ebenfalls geloggt und der Wahlvorgang ist beendet.
 
-A few resources to get you started if this is your first Flutter project:
+Sollte der Wähler mit einer Kopie des Wahlscheines erneut das Wahllokal betreten warnt das System bei erneuter Eingabe der Wahlnummer. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Datenschutzfreundlich
+Die App wahlhelfer.app erfasst keinerlei personenbezogenen Daten. Für die Erstellung einer Wahlsession wird nur ein Passwort (mindestens 10 Stellen) und die Anzahl der Wahlberechtigten gesamt bzw. pro Seite benötigt.
