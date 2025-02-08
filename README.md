@@ -1,6 +1,6 @@
 # wahlhelfer.app Frontend
 
-Dies ist das Frontend zu (wahlhelfer.app), das Repo zum Backend findest du unter [gruessung/wahlhelfer_backend](https://github.com/gruessung/wahlhelfer_backend).
+Dies ist das Frontend zu [wahlhelfer.app](https://wahlhelfer.app), das Repo zum Backend findest du unter [gruessung/wahlhelfer_backend](https://github.com/gruessung/wahlhelfer_backend).
 
 # Worum geht es?
 wahlhelfer.app ist eine Plattform, um Wahlhelfenden in den Wahllokalen den Abgleich zwischen Wählerverzeichnissen zu erleichtern.
